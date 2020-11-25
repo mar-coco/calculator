@@ -1,0 +1,44 @@
+#title {
+  text-align: center;
+  font-size: 30px;
+  color: green;
+  font-weight: bold;
+}
+
+#display { 
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-size: 36px;
+    background-color: lightyellow;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    width: 290px;
+    height: 50px;
+}
+
+#inputs {
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  width: 300px;
+  height: 350px;
+}
+
+#grid-container-number-pad {
+    display: grid;
+    grid-template-columns: 25% 25% 25% auto; 
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    text-align: center;
+  }
+
+.grid-number, .grid-operator {
+    font-size: 16px;
+}
+
